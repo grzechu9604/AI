@@ -3,3 +3,8 @@
 ################################################################################
 
 *.suo
+/Library/.vs/config
+/Library/Library/bin
+/Library/Library/obj/Debug
+/Library/Library.Tests/obj/Debug
+/Library/packages
