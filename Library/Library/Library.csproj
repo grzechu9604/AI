@@ -202,9 +202,17 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Books\Book.cs" />
+    <Compile Include="Models\Books\BookSpecimen.cs" />
+    <Compile Include="Models\Books\HistoryOfBorrowing.cs" />
+    <Compile Include="Models\BorrowingManagement\Borrowing.cs" />
+    <Compile Include="Models\Exceptions\BorrowingManagement\BorrowingAlreadyEndedException.cs" />
+    <Compile Include="Models\Exceptions\LibraryManagement\NotAllowedException.cs" />
+    <Compile Include="Models\Exceptions\LibraryManagement\UserAlreadyInvitedException.cs" />
     <Compile Include="Models\Exceptions\UsersManagementExceptions\UserAlreadyConfirmedException.cs" />
     <Compile Include="Models\Exceptions\UsersManagementExceptions\UserNotConfirmedException.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\LibraryManagement\Library.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Users\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -47,6 +47,7 @@ BookSpecimen
 		Lend()
 		GiveBack
 
+BookController 
 		
 		
 Book
@@ -55,7 +56,7 @@ Book
 		title
 
 	Methods
-		Ctor (thwors Exception - book already exists)
+		Ctor (thwors Exception - book already exists) -> do do kontrolera
 		AddNewBook
 		GetBookFrom ?
 		
