@@ -1,0 +1,70 @@
+User
+	fields
+		name
+		mail
+		hashedPassword
+		createDate
+		confirmationDate
+		Library
+	
+	Methods
+		Ctor(name, adres, password)
+		ConfirmCreation
+		Login(password)
+		-Delete
+		-GenerateHashCode
+		-ValidateHashCode
+
+UserHelper
+	-ScheduleDelete(time)
+		
+Library
+	fields
+		User Owner
+		User[] Gusets
+		Invitations[] mails
+		BookSpecimen[] books
+		
+		
+	Methods
+		Invite(mail)
+		AddGuest(user)
+		ConsumeInvitation(mail) (throws Exception - no user with given mail
+		AddPosition(BookSpecimen)
+		LendPosition
+		BorrowPosition
+	
+BookSpecimen	
+	fields
+		Book
+		State <półka, użytkownik, zewnątrz>
+		User Lender
+		Library From
+		History
+		
+	Method
+		Lend(User)
+		Lend()
+		GiveBack
+
+		
+		
+Book
+	Fields
+		author
+		title
+
+	Methods
+		Ctor (thwors Exception - book already exists)
+		AddNewBook
+		GetBookFrom ?
+		
+	
+History
+	Queue<Borrowing> 
+		
+Borrowing
+	DateFrom
+	DateTo
+	User
+
