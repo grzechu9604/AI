@@ -10,3 +10,5 @@
 /Library/packages
 /Library/Library.Tests/bin/Debug
 /Library/Library/*.user
+/Library/Library/App_Data/aspnet-Library-20180426091810.mdf
+/Library/Library/App_Data/aspnet-Library-20180426091810_log.ldf
